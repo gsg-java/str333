@@ -25,5 +25,8 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-freemarker')
+	compile("org.springframework.boot:spring-boot-devtools")
+	// https://mvnrepository.com/artifact/javax.mail/mail
+	compile group: 'javax.mail', name: 'mail', version: '1.4.7'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
